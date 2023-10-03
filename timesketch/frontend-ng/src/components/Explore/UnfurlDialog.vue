@@ -13,8 +13,7 @@ limitations under the License.
 <template>
   <v-card>
     <v-card-title>
-      <v-icon large color="green">mdi-graph-outline</v-icon>
-      <span class="text-h6 ml-2">Unfurl graph</span>
+      <v-img src="/unfurl-logo.png" max-height="50" max-width="200" contain class="mb-2"></v-img>
     </v-card-title>
     <v-card-subtitle class="pt-1">
       <span><b>Input:</b> {{ url }}</span>
